@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     android:background="#585858">
+    
+    <!-- Name -->
+    <TextView android:id="@+id/partitura"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28dip"
+        android:paddingLeft="15dip"
+        android:layout_marginTop="15dip"/> 
+</RelativeLayout>

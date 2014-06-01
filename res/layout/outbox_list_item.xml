@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#585858" >
+
+    <!-- Subject Label -->
+    
+    <!-- Lloc -->
+
+    <!-- DiaHora -->
+    <TextView android:id="@+id/to"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingLeft="8dip"
+        android:paddingBottom="6dip"
+        android:textStyle="bold"
+        android:textSize="20dip"
+        android:layout_below="@id/date"/>
+    
+    <!-- Mail date -->
+	 <TextView
+        android:id="@+id/diahora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/to"
+        android:paddingBottom="6dip"
+        android:paddingLeft="8dip"
+        android:textSize="20dip" />
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:textSize="20dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="8dip" />
+
+    <TextView
+        android:id="@+id/subject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="4dip"
+        android:paddingLeft="8dip"
+        android:paddingTop="8dip"
+        android:textSize="20dip" />
+ 
+</RelativeLayout>
